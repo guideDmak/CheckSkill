@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursive Algorithm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px 5px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recursive Algorithm</h1>
+        
+        <!-- Factorial -->
+        <h2>Factorial</h2>
+        <input type="number" id="factorialInput" placeholder="ป้อนค่า n">
+        <button onclick="calculateFactorial()">คำนวณ Factorial</button>
+        <div class="result" id="factorialResult"></div>
+
+        <!-- Fibonacci -->
+        <h2>Fibonacci</h2>
+        <input type="number" id="fibonacciInput" placeholder="ป้อนค่า n">
+        <button onclick="calculateFibonacci()">คำนวณ Fibonacci</button>
+        <div class="result" id="fibonacciResult"></div>
+    </div>
+
+    <script src="rec.js"></script>
+</body>
+</html> 

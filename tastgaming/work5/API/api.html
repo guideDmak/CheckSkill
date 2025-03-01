@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data Fetching</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ข้อมูลผู้ใช้</h1>
+        <button onclick="fetchData()">ดึงข้อมูลผู้ใช้</button>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>ชื่อ</th>
+                    <th>อีเมล</th>
+                    <th>ที่อยู่</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>

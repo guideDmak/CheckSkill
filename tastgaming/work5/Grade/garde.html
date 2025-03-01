@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="garde.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Grade Calculator</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>รหัสวิชา</th>
+                    <th>คะแนนที่ได้</th>
+                    <th>จำนวนหน่วยกิต</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS1101</td>
+                    <td><input type="number" id="score1" oninput="limit(this)" onkeydown="DidInput(event)" required></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS1102</td>
+                    <td><input type="number" id="score2" oninput="limit(this)" onkeydown="DidInput(event)" required></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS1203</td>
+                    <td><input type="number" id="score3" oninput="limit(this)" onkeydown="DidInput(event)" required></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS1204</td>
+                    <td><input type="number" id="score4" oninput="limit(this)" onkeydown="DidInput(event)" required></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS1305</td>
+                    <td><input type="number" id="score5" oninput="limit(this)" onkeydown="DidInput(event)" required></td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="calGPA()">คำนวณ GPA</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="garde.js"></script>
+</body>
+</html>

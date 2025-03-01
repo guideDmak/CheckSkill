@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบสุ่มเลขหวย</title>
+    <link rel="stylesheet" href="lotto.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ระบบสุ่มเลขหวย</h1>
+        <button onclick="generateLottery()">สุ่มเลขหวย</button>
+        <p id="lotteryNumber"></p>
+        <input type="text" id="userGuess" placeholder="ทายเลข 6 หลัก" maxlength="6">
+        <button onclick="checkGuess()">ตรวจสอบ</button>
+        <p id="result"></p>
+    </div>
+    <script src="lotto.js"></script>
+</body>
+</html>

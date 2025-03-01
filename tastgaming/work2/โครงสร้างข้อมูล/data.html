@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โครงสร้างข้อมูล (Data Structures)</title>
+
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <h2>ทดสอบโครงสร้างข้อมูล (Data Structures)</h2>
+
+    <!-- List / Array -->
+    <h3>List / Array</h3>
+    <input type="text" id="arrayInput" placeholder="เพิ่มข้อมูลใน Array">
+    <button onclick="add()">เพิ่ม</button>
+    <button onclick="remove()">ลบตัวสุดท้าย</button>
+    <p id="result">[&nbsp;&nbsp;Empty&nbsp;&nbsp;]</p>
+
+    <h3>Dictionary / Object</h3>
+    <button onclick="ShowStu()">แสดงข้อมูลนักเรียน</button>
+    <p id="stu"></p>
+
+    <h3>Tuple & Set</h3>
+    <input type="text" id="tupleInput">
+    <button onclick="tupleClick()">ใส่เพิ่ม</button>
+    <p id="tuple"> Set</p>
+
+    <script src="data.js"></script>
+</body>
+</html>
