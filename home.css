@@ -22,9 +22,17 @@ h1 {
 
 .works-container {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap; /* ให้ปุ่มขึ้นแถวใหม่เมื่อหน้าจอเล็ก */
+    flex-wrap: wrap;
+}
+
+.file-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-work {
@@ -41,6 +49,7 @@ h1 {
     background-color: #F1F1F1; 
     transition: background-color 0.3s ease, transform 0.2s ease; 
 }
+
 
 .button-work:hover  {
     background-color: #EBA3C1; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
