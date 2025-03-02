@@ -4,10 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: aqua;
-}
-
 .works-container{
     display: flex;
     align-items: center;
@@ -15,34 +11,22 @@ body{
     flex-direction: column;
 }
 
-.button-work{
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    box-shadow: 0px 0px 10px 0px;
-    border-radius: 2rem;
-    width: 5rem;
-    cursor: pointer;
-}
-
-.button-work-2{
-    padding: 10px;
-    border: none;
-    box-shadow: 0px 0px 10px 0px;
-    border-radius: 2rem;
-    width: 10rem;
-    cursor: pointer;
-    margin-right: 1rem;
-}
 
 .button-work-1{
     padding: 10px;
     border: none;
-    box-shadow: 0px 0px 10px 0px;
     border-radius: 2rem;
     width: 10rem;
     cursor: pointer;
-    margin-right: 1rem;
+    margin-right: 1rem;    
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; 
+
+}
+
+.button-work-1:hover{
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); 
+
+
 }
 
 .button-work-return{

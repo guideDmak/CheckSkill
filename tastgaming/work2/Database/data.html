@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>โครงสร้างข้อมูล (Data Structures)</title>
-
     <link rel="stylesheet" href="data.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
+
 <body>
-    <h2>ทดสอบโครงสร้างข้อมูล (Data Structures)</h2>
+    <h1>ทดสอบโครงสร้างข้อมูล (Data Structures)</h1>
 
     <!-- List / Array -->
     <h3>List / Array</h3>
-    <input type="text" id="arrayInput" placeholder="เพิ่มข้อมูลใน Array">
-    <button onclick="add()">เพิ่ม</button>
-    <button onclick="remove()">ลบตัวสุดท้าย</button>
-    <p id="result">[&nbsp;&nbsp;Empty&nbsp;&nbsp;]</p>
+    <div class="array">
+        <input type="text" id="arrayInput" placeholder="ใส่ใน Array" class="button-work-1">
+        <button onclick="add()" class="button-work-1">เพิ่ม</button>
+        <button onclick="remove()" class="button-work-1">ลบตัวสุดท้าย</button>
+        <div class="result">
+            <p id="result">[&nbsp;&nbsp;Empty&nbsp;&nbsp;]</p>
+        </div>
+    </div>
 
     <h3>Dictionary / Object</h3>
-    <button onclick="ShowStu()">แสดงข้อมูลนักเรียน</button>
+    <button onclick="ShowStu()" class="button-work-1">แสดงข้อมูลนักเรียน</button>
     <p id="stu"></p>
-
     <h3>Tuple & Set</h3>
-    <input type="text" id="tupleInput">
-    <button onclick="tupleClick()">ใส่เพิ่ม</button>
-    <p id="tuple"> Set</p>
-
+    <div>
+        <input type="text" id="tupleInput" class="button-work-1">
+        <button onclick="tupleClick()" class="button-work-1">ใส่เพิ่ม</button>
+        <p id="tuple">Set</p>
+    </div>
+    <button onclick="history.back()" class="button-work">กลับ</button>
     <script src="data.js"></script>
 </body>
+
 </html>

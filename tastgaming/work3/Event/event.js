@@ -10,12 +10,12 @@ document.getElementById("box").onmouseover = function() {
 };
 // เมาส์ออก_____________________________
 document.getElementById("box").onmouseout = function() {
-    this.style.backgroundColor = "lightblue";
+    this.style.backgroundColor = "#A1D9F3";
     this.innerText = "เลื่อนเมาส์มาที่นี่";
 };
 
 // พิมพ์__________________________________
 document.getElementById("textInput").addEventListener("keyup", function(event) {
     console.log("คุณพิมพ์: " + event.target.value);
-    document.getElementById("result").innerText = "คุณพิมพ์: " + event.target.value;
+    document.getElementById("result").innerText = "คุณพิมพ์ว่า: " + event.target.value;
 });

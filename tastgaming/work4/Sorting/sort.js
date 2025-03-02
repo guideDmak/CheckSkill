@@ -7,7 +7,7 @@ function generateArray() {
   );
   document.getElementById("arrayOutput").value =
     "Array ก่อนเรียงลำดับ:\n" + array.join(", ");
-  document.getElementById("result").innerText = "";
+  document.getElementById("result").innerText = "เรียงเลยยย";
 }
 
 // Bubble Sort

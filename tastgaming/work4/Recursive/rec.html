@@ -4,49 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recursive Algorithm</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        input {
-            padding: 10px;
-            margin: 10px 0;
-            width: 100px;
-        }
-        button {
-            padding: 10px 20px;
-            margin: 10px 5px;
-            font-size: 16px;
-        }
-        .result {
-            margin-top: 20px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="rec.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
 <body>
-    <div class="container">
+    <div class="rec-container">
         <h1>Recursive Algorithm</h1>
         
         <!-- Factorial -->
         <h2>Factorial</h2>
-        <input type="number" id="factorialInput" placeholder="ป้อนค่า n">
-        <button onclick="calculateFactorial()">คำนวณ Factorial</button>
+        <input class="button-work-1" type="number" id="factorialInput" placeholder="ป้อนค่า n">
+        <button class="button-work-1" onclick="calculateFactorial()">คำนวณ Factorial</button>
         <div class="result" id="factorialResult"></div>
 
         <!-- Fibonacci -->
         <h2>Fibonacci</h2>
-        <input type="number" id="fibonacciInput" placeholder="ป้อนค่า n">
-        <button onclick="calculateFibonacci()">คำนวณ Fibonacci</button>
+        <input class="button-work-1" type="number" id="fibonacciInput" placeholder="ป้อนค่า n">
+        <button class="button-work-1" onclick="calculateFibonacci()">คำนวณ Fibonacci</button>
         <div class="result" id="fibonacciResult"></div>
     </div>
+    <button onclick="history.back()" class="button-work">กลับ</button>
 
     <script src="rec.js"></script>
 </body>

@@ -18,5 +18,5 @@ function startColorChange() {
 }
 
 function resetBgColor() {
-    document.body.style.backgroundColor = "#ffffff";
+    document.body.style.backgroundColor = "#A1D9F3";
 }

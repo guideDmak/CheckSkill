@@ -4,24 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change Background</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            margin-top: 50px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
 <body>
     <h1>เปลี่ยนสีพื้นหลัง</h1>
-    <button onclick="startColorChange()" id="startColorChange">สุ่มสีดิสโก้</button>
-    <button onclick="changeBgColor()">เปลี่ยนสี</button>
-    <button onclick="resetBgColor()">กลับสีเดิม</button>
-
+    <button class="button-work-1" onclick="startColorChange()" id="startColorChange">สุ่มสีดิสโก้</button>
+    <button class="button-work-1" onclick="changeBgColor()">เปลี่ยนสี</button>
+    <button class="button-work-1" onclick="resetBgColor()">กลับสีเดิม</button>
+    <button onclick="history.back()" class="button-work">กลับ</button>
     <script src="index.js"></script>
 </body>
 </html>

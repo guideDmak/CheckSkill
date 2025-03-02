@@ -24,6 +24,6 @@ function checkGuess() {
     if (userGuess === lotteryNumber) {
         document.getElementById("result").innerText = "ยินดีด้วย! คุณทายถูก";
     } else {
-        document.getElementById("result").innerText = "เสียใจด้วย! คุณทายผิด";
+        document.getElementById("result").innerText = "เสียใจด้วย! คุณถูกแดก";
     }
 }

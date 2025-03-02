@@ -1,0 +1,11 @@
+.button-work-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    width: 10rem;
+    text-align: center;
+    cursor: pointer;   
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; 
+}

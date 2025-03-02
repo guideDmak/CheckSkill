@@ -1,15 +1,9 @@
 .button-work-1{
     padding: 10px;
     border: none;
+    margin: 0.5rem;
     border-radius: 2rem;
     width: 10rem;
-    cursor: pointer;
+    cursor: pointer;   
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; 
-}
-
-.array {
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
 }

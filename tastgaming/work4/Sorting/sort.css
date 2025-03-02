@@ -1,0 +1,17 @@
+#arrayOutput {
+    width: 98%;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 2rem;
+
+}
+
+.result {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}

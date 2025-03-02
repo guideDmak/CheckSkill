@@ -1,40 +1,26 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ตรวจสอบอายุ</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .container {
-            max-width: 300px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        input, button {
-            margin: 10px 0;
-            padding: 10px;
-            width: 100%;
-        }
-        .result {
-            margin-top: 20px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="age.css">
+    <link rel="stylesheet" href="../../../home.css">
+
 </head>
+
 <body>
-    <div class="container">
-        <h1>ตรวจสอบอายุ</h1>
+    <h1>ตรวจสอบอายุ</h1>
+    <div>
         <label for="age">ป้อนอายุของคุณ:</label>
-        <input type="number" id="age" placeholder="อายุ" max="100" oninput="limitInput(this)">
-        <button onclick="checkAge()">ตรวจสอบ</button>
-        <div class="result" id="result"></div>
+        <input class="button-work-1" type="number" id="age" placeholder="อายุ" max="100" oninput="limitInput(this)">
+        <button class="button-work-1" onclick="checkAge()">ตรวจสอบ</button>
+        <div id="result">บอกอายุเธอมากนะ</div>
     </div>
+    <button onclick="history.back()" class="button-work">กลับ</button>
 
     <script src="age.js"></script>
 </body>
+
 </html>

@@ -2,17 +2,16 @@
 
 *{
     font-family: 'Mali', sans-serif;
+    
 }
 body {
     background-color: #A1D9F3;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
+
 
 h1 {
     color: #2D3E5F; /* เปลี่ยนสีข้อความเป็นสีเข้ม */
@@ -22,12 +21,12 @@ h1 {
 
 .works-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.file-list {
+
+.home {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,9 +36,9 @@ h1 {
 
 .button-work {
     margin: 10px;
-    padding: 15px 25px; /* ปรับขนาด padding */
+    padding: 15px 25px;
     border: none;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
     width: 8rem;
     cursor: pointer;
@@ -55,7 +54,23 @@ h1 {
     background-color: #EBA3C1; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
     transform: translateY(-3px); /* เลื่อนปุ่มขึ้นเล็กน้อยเมื่อโฮเวอร์ */
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); 
+    color: #ffffff;
+}
 
-.button-work:active {
-    transform: translateY(0); /* คืนค่าตำแหน่งเมื่อคลิก */
+
+
+.btuW1{
+    width: 20rem;
+}
+
+.button-work-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    width: 10rem;
+    cursor: pointer;   
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; 
+    text-align: center;
 }

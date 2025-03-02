@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
     <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
 <body>
+    <h1>To-Do List</h1>
     <div class="container">
-        <h1>To-Do List</h1>
-        <input type="text" id="taskInput" placeholder="เพิ่มรายการใหม่...">
-        <button onclick="addTask()">เพิ่ม</button>
+        <h1>เป้าหมาย</h1>
+        <input  type="text" id="taskInput" placeholder="เพิ่มรายการใหม่...">
+        <button class="button-work-1" onclick="addTask()">เพิ่ม</button>
         <ul id="taskList"></ul>
     </div>
+    <button onclick="history.back()" class="button-work">กลับ</button>
     <script src="todo.js"></script>
 </body>
 </html>

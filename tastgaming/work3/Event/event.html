@@ -4,27 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Events</title>
-    <style>
-        #box {
-            width: 200px;
-            height: 200px;
-            background-color: lightblue;
-            margin: auto;
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 18px;
-        }
-    </style>
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
 <body>
     <h2>ทดสอบ Event ต่างๆ</h2>
-    <button id="clickBtn">คลิกฉัน!</button>
+    <button id="clickBtn" class="button-work-1">คลิกฉัน!</button>
     <div id="box">เลื่อนเมาส์มาที่นี่</div>
-    <input type="text" id="textInput" placeholder="พิมพ์อะไรบางอย่าง">
-    <p id="result">คุณพิมพ์:&nbsp;</p>
-
+    <input type="text" id="textInput" placeholder="พิมพ์ฉันเลย" class="button-work-1">
+    <p id="result">พิมพ์ฉันเร็วสิ:&nbsp;</p>
+    <button onclick="history.back()" class="button-work">กลับ</button>
     <script src="event.js"></script>
 </body>
 </html>

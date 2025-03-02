@@ -1,14 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #A1D9F3;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -17,14 +6,18 @@ img {
 
 }
 
-
+.file-list {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* แถวละ 3 คอลัมน์ */
+    gap: 1rem;
+}
 
 .file-container {
     background-color: #F1F1F1;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 14rem;
     border-radius: 25%;
     transition:transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease; 
     margin: 0.5rem;
@@ -71,9 +64,4 @@ img:hover {
     font-size: 0.9rem;
     color: #881f1f;
     text-align: center;
-}
-
-.file-list{
-    display: flex;
-
 }

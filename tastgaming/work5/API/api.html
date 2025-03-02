@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Data Fetching</title>
     <link rel="stylesheet" href="api.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
 <body>
     <div class="container">
         <h1>ข้อมูลผู้ใช้</h1>
-        <button onclick="fetchData()">ดึงข้อมูลผู้ใช้</button>
-        <table id="userTable">
+        <button class="button-work-1" onclick="fetchData()">ดึงข้อมูลผู้ใช้</button>
+        <table class="user-table" id="userTable">
             <thead>
                 <tr>
                     <th>ชื่อ</th>
@@ -21,6 +22,7 @@
             <tbody></tbody>
         </table>
     </div>
+    <button onclick="history.back()" class="button-work">กลับ</button>
     <script src="api.js"></script>
 </body>
 </html>

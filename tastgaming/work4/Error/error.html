@@ -5,44 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debugging & Error Handling</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        button {
-            padding: 10px 20px;
-            margin: 10px 5px;
-            font-size: 16px;
-        }
-
-        .result {
-            margin-top: 20px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="error.css">
+    <link rel="stylesheet" href="../../../home.css">
 </head>
-
 <body>
-    <div class="container">
+    <div class="error-container">
         <h1>Debugging & Error Handling</h1>
         <!-- Debugging Tools -->
         <h2>Debugging Tools</h2>
-        <button onclick="runDebuggingExample()">รัน Debugging Example</button>
-        <div class="result" id="debuggingResult"></div>
+        <button class="button-work-1" onclick="runDebuggingExample()">รัน <p></p>Debugging Example</button>
+        <div class="result" id="debuggingResult">wdwd</div>
         <!-- Exception Handling -->
         <h2>Exception Handling</h2>
-        <button onclick="runExceptionHandlingExample()">รัน Exception Handling Example</button>
+        <button class="button-work-1" onclick="runExceptionHandlingExample()">รัน Exception Handling Example</button>
         <div class="result" id="exceptionResult"></div>
     </div>
+    <button onclick="history.back()" class="button-work">กลับ</button>
 
     <script src="error.js"></script>
 </body>
