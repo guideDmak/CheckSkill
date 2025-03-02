@@ -1,10 +1,10 @@
 const dummyData = [
-    { name: "Conditional", link: "Conditional/age.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "Error", link: "Error/error.html", img: "../img/SCR-25680301-ukar.png" },
-    { name: "Loop", link: "Loop/loop.html", img: "../img/SCR-25680301-ukar.png" },
-    { name: "Recursive", link: "Recursive/rec.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "Sequential", link: "Sequential/seq.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "Sort", link: "Sorting/sort.html", img: "../img/SCR-25680302-klrl.png" },
+    { name: "Conditional", link: "Conditional/age.html", img: "../img/Age.png" },
+    { name: "Error", link: "Error/error.html", img: "../img/Error.png" },
+    { name: "Loop", link: "Loop/loop.html", img: "../img/Loop.png" },
+    { name: "Recursive", link: "Recursive/rec.html", img: "../img/Rec.png" },
+    { name: "Sequential", link: "Sequential/seq.html", img: "../img/Seq.png" },
+    { name: "Sort", link: "Sorting/sort.html", img: "../img/Sort.png" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

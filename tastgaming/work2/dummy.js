@@ -1,7 +1,7 @@
 const dummyData = [
-    { name: "React", link: "ตัวแปร/calculartor.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "JSON Data", link: "json data/json.html", img: "../img/SCR-25680301-ukar.png" },
-    { name: "Database", link: "Database/data.html", img: "../img/SCR-25680301-ukar.png" }
+    { name: "Calculator", link: "ตัวแปร/calculartor.html", img: "../img/Cal.png" },
+    { name: "JSON Data", link: "json data/json.html", img: "../img/Json.png" },
+    { name: "Database", link: "Database/data.html", img: "../img/Data_Str.png" }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

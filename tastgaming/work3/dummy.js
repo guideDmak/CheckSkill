@@ -1,7 +1,7 @@
 const dummyData = [
-    { name: "Event", link: "Event/event.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "Html and Js", link: "html และ js/index.html", img: "../img/SCR-25680301-ukar.png" },
-    { name: "Email", link: "ตรวจสอบข้อมูล/email.html", img: "../img/SCR-25680301-ukar.png" },
+    { name: "Event", link: "Event/event.html", img: "../img/Event.png" },
+    { name: "Html and Js", link: "htmlandJS/index.html", img: "../img/BG.png" },
+    { name: "Email", link: "Email/email.html", img: "../img/Email.png" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

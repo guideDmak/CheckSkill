@@ -1,8 +1,8 @@
 const dummyData = [
-    { name: "API", link: "API/api.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "Grade", link: "Grade/garde.html", img: "../img/SCR-25680301-ukar.png" },
-    { name: "Lotto", link: "lotto/lotto.html", img: "../img/SCR-25680301-ukar.png" },
-    { name: "Todo", link: "Todo/todo.html", img: "../img/SCR-25680302-klrl.png" },
+    { name: "API", link: "API/api.html", img: "../img/Api.png" },
+    { name: "Grade", link: "Grade/garde.html", img: "../img/Stu.png" },
+    { name: "Lotto", link: "lotto/lotto.html", img: "../img/Lotto.png" },
+    { name: "Todo", link: "Todo/todo.html", img: "../img/Todo.png" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

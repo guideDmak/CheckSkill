@@ -1,6 +1,6 @@
 const dummyData = [
-    { name: "React", link: "Framework/dist/index.html", img: "../img/SCR-25680302-klrl.png" },
-    { name: "IDE", link: "IDE/index.html", img: "../img/SCR-25680301-ukar.png" },
+    { name: "React", link: "Framework/dist/index.html", img: "../img/React.png" },
+    { name: "IDE", link: "IDE/index.html", img: "../img/JStast.png" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

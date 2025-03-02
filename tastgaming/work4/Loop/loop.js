@@ -1,5 +1,4 @@
 
-
 function runWhileLoop() {
     let input = "";
     let output = "คุณป้อนค่า: ";
