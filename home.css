@@ -2,7 +2,6 @@
 
 *{
     font-family: 'Mali', sans-serif;
-    
 }
 body {
     background-color: #A1D9F3;
@@ -10,11 +9,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 
 h1 {
-    color: #2D3E5F; /* เปลี่ยนสีข้อความเป็นสีเข้ม */
+    color: #2D3E5F;
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
@@ -51,13 +51,11 @@ h1 {
 
 
 .button-work:hover  {
-    background-color: #EBA3C1; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
+    background-color: #EBA3C1;
     transform: translateY(-3px); /* เลื่อนปุ่มขึ้นเล็กน้อยเมื่อโฮเวอร์ */
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); 
     color: #ffffff;
 }
-
-
 
 .btuW1{
     width: 20rem;
@@ -73,4 +71,10 @@ h1 {
     cursor: pointer;   
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; 
     text-align: center;
+}
+
+
+.button-work-1:hover{
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
 }

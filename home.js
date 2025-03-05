@@ -4,6 +4,7 @@ const dummyData = [
   { name: "Work 3", link: "tastgaming/work3/work3.html" },
   { name: "Work 4", link: "tastgaming/work4/work4.html" },
   { name: "Work 5", link: "tastgaming/work5/work5.html" },
+  { name: "For you 💜", link: "spc/March7th.html" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

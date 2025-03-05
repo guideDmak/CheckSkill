@@ -11,6 +11,9 @@
     <div class="container">
         <h1>ข้อมูลผู้ใช้</h1>
         <button class="button-work-1" onclick="fetchData()">ดึงข้อมูลผู้ใช้</button>
+        <input class="button-work-1" type="number" id="searchInput" placeholder="ป้อน ID เพื่อค้นหา..." min="0">
+        <button onclick="searchID()" class="button-work-1">ค้นหา</button>
+        <div id="result" class="result-message"></div>
         <table class="user-table" id="userTable">
             <thead>
                 <tr>
@@ -21,6 +24,7 @@
             </thead>
             <tbody></tbody>
         </table>
+        <!-- เพิ่ม div สำหรับแสดงผลข้อความแจ้งเตือน -->
     </div>
     <button onclick="history.back()" class="button-work">กลับ</button>
     <script src="api.js"></script>

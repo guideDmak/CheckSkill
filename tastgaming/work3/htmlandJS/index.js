@@ -7,8 +7,8 @@ function changeBgColor() {
 
 
 function startColorChange() {
-    if (!Bgdisgo) { // ตรวจสอบว่า interval ยังไม่ทำงานอยู่
-        Bgdisgo = setInterval(changeBgColor, 100); // เปลี่ยนสีทุก 1 วินาที
+    if (!Bgdisgo) { 
+        Bgdisgo = setInterval(changeBgColor, 100); 
         document.getElementById("startColorChange").innerText = "หยุดดิสโก้";
     } else{
         clearInterval(Bgdisgo);
